@@ -245,7 +245,7 @@ plugins:
       priority: 25
       display: mobile-only
   - source: github:quartz-community/bases-page
-    enabled: false
+    enabled: true
     options: {}
     order: 50
   - source: github:quartz-community/note-properties
@@ -273,7 +273,7 @@ plugins:
     options:
       theme: dark-moss
   - source: github:quartz-community/obsidian-plugin-excalidraw
-    enabled: false
+    enabled: true
     options:
       enableInteraction: true
       darkMode: auto
